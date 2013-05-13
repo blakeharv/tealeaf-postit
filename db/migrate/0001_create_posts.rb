@@ -6,6 +6,7 @@ class CreatePosts < ActiveRecord::Migration
       t.text    :description
 
       t.timestamps
+    end
   end
 
   def down
