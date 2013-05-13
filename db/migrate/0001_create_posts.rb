@@ -10,6 +10,6 @@ class CreatePosts < ActiveRecord::Migration
   end
 
   def down
-    drop_table :products
+    drop_table :posts
   end
 end
