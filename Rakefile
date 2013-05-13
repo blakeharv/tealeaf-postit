@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Postit::Application.load_tasks
+Code::Application.load_tasks
